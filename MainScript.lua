@@ -145,7 +145,6 @@ local function vapeGithubRequest(scripturl)
 		end)
 		suc, res = pcall(function() return game:HttpGet("https://raw.githubusercontent.com/NTDCore/VapeRoblox/"..readfile("vape/commithash.txt").."/"..scripturl, true) end)
 		if not suc or res == "404: Not Found" then
-			displayErrorPopup("Failed to connect to github : vape/"..scripturl.." : "..res)
 			error(res)
 		end
 		if scripturl:find(".lua") then res = "--This watermark is used to delete the file if its cached, remove it to make the file persist after commits.\n"..res end
