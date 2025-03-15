@@ -3446,7 +3446,7 @@ run(function()
 				lightingsettings.FogEnd = lightingService.FogEnd
 				lightingsettings.GlobalShadows = lightingService.GlobalShadows
 				lightingsettings.OutdoorAmbient = lightingService.OutdoorAmbient
-				lightingchanged = true	
+				lightingchanged = true
 				lightingService.Brightness = 6
 				lightingService.ClockTime = 14
 				lightingService.FogEnd = 100000
@@ -3461,7 +3461,7 @@ run(function()
 						lightingsettings.GlobalShadows = lightingService.GlobalShadows
 						lightingsettings.OutdoorAmbient = lightingService.OutdoorAmbient
 						lightingchanged = true
-						lightingService.Brightness = 6
+						lightingService.Brightness = 2
 						lightingService.ClockTime = 14
 						lightingService.FogEnd = 100000
 						lightingService.GlobalShadows = false
